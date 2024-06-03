@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../image/bgimage.jpg");
+  background-attachment :fixed;
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.form{
+  width: 350px;
+  height: 480px;
+  text-align: center;
+  position: absolute;
+  top:20%;
+  left: 40%;
+  background-color: rgba(225,225,225,0.5);
+  border-radius: 10px;
+  border: 2px solid #fff;
+  backdrop-filter: blur(5px);
+  transform: translate(-50px,-50px);
+ 
+}
+
+h1{
+  font-family: 'Poppins'; 
+  font-size:30px;
+  color: #fff;
+  margin-top:35px;
+  word-spacing:2px;
+  letter-spacing:1px;
+  margin-bottom:20px;
+}
+
+.box{
+  width:80%;
+  margin-bottom: 25px;
+  background-color:transparent;
+  border-color: #fff;
+  outline:none;
+  padding:15px 20px;
+  border: 1px solid #fff;
+  border-radius:5px;
+  color: #000;
+  
+
+}
+.box::placeholder{
+  
+  color: #fff;
+  letter-spacing:1px;
+}
+
+.remember{
+  color: #fff;
+  float:left;
+  padding-left:35px;
+  
+}
+
+.forgot{
+  
+  float: right;
+  padding-right:20px;
+}
+.forgot a{
+  color: #fff;
+  text-decoration:none;
+}
+button{
+  width: 80%;
+  font-family: 'Poppins';
+  margin-top:40px;
+  padding: 10px 10px;
+  font-size:20px;
+  background-color:transparent;
+  border: 1px solid #fff;
+  border-radius:5px;
+  color: #fff;
+}
+p{
+  
+  color: #fff;
+  font-size:20px;
+  font-family: 'Poppins';
+}
+
+.fb img{
+  
+  width:50px;
+  margin-top:20px;
+  margin-left:20px;
+  float: left;
+  padding-left:20px;
+  background-color:transparent;
+  backdrop-filter: blur(50px);
+  transform: translate;
+  
+  
+}
+
+.fb p{
+  font-family: 'Poppins';
+  float: left;
+  padding: opx 15px;
+  margin-top:20px;
+  text-align:center;
+  align-items:center;
+  background-color:transparent;
+  backdrop-filter: blur(80px);
+  transform: translate;
+  
+}
+
+.google img{
+  
+  width: 50px;
+  margin-top: 20px;
+  margin-left: 20px;
+  float: left;
+  padding-left: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+  transform: translate;
+  
+}
+
+.google p{
+  font-family: 'Poppins';
+  float: left;
+  padding: 0px 2px  0px;
+  margin-top:20px;
+  background-color:transparent;
+  backdrop-filter: blur(80px);
+  transform: translate;
+}
+
+
+  
+  
